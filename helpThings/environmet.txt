@@ -1,0 +1,18 @@
+
+-- environment--
+npm i @nestjs/config
+import in app module => in header and imports
+make .env file variables
+
+-- database -- 
+npm i @nestjs/typeorm pg --save
+import in app module headers
+make connection in imports -= app.module
+
+
+-- jwt auth module -- 
+npm i @nestjs/jwt @nestjs/passport passport passport-jwt  --save
+
+
+-- validation --
+npm i class-validator
